@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1262389550 source:d:\projects\c\mime-type\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"mimetype.h"
+	"mime_extensions.h"
+	"mime_types.h"
+
+1262389526 d:\projects\c\mime-type\mimetype.h
+
+1262388939 d:\projects\c\mime-type\mime_extensions.h
+
+1262387838 d:\projects\c\mime-type\mime_types.h
+
