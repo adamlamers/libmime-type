@@ -34,12 +34,12 @@
 				</Linker>
 			</Target>
 		</Build>
-		<Unit filename="main.c">
+		<Unit filename="..\..\main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="mime_extensions.h" />
-		<Unit filename="mime_types.h" />
-		<Unit filename="mimetype.h" />
+		<Unit filename="..\..\mime_extensions.h" />
+		<Unit filename="..\..\mime_types.h" />
+		<Unit filename="..\..\mimetype.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />
