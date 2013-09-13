@@ -38,7 +38,7 @@ char* mime_get_file_extension(char *filename)
     int start_substr = 0;
     int filename_length = strlen(filename);
     
-    for(i=0;i<filename_length;i++)
+    for(i=filename_length - 1; i>=0; i++)
     {
         if(filename[i] == '.') start_substr = i + 1;
     }
