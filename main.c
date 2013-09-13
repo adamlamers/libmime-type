@@ -18,7 +18,7 @@ int mime_type(char *filename, char **outMimeType)
     {
         if(strcmp(file_ext, mime_extensions[i]) == 0)
         { 
-            *outMimeType = (char*)malloc(strlen(mime_types[i]));
+            *outMimeType = (char*)malloc(strlen(mime_types[i]) + 1);
             if(*outMimeType == NULL) return MNO_MEM;
             strcpy(*outMimeType, mime_types[i]);
             return M_OK;
